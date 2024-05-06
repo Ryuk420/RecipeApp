@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { useHistory, useLocation } from 'react-router-dom';
 import ChipInput from 'material-ui-chip-input';
 
+import FavouriteFoods from '../../components/favouriteFoods/FavouriteFoods'
 import Posts from '../../components/Posts/Posts';
 import Form from '../../components/Form/Form';
 import { getPostsBySearch } from '../../actions/posts';
@@ -80,6 +81,7 @@ const Home = () => {
                         <Pagination page={page} />
                       </Paper>
                     )}
+                    <FavouriteFoods/>
                 </Grid>
             </Grid>
         </Container>

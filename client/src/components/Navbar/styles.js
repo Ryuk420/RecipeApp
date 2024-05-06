@@ -8,7 +8,7 @@ export default makeStyles((theme) => ({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: '10px 10px 10px 30px',
+    padding: '10px 20px 10px 20px',
     background:"#202020",
     marginBottom:"30px",
   },

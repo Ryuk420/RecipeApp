@@ -44,6 +44,7 @@ const Navbar = () => {
       </Link>
         {/* <img className={classes.image} src={memories} alt="memories" height="60" /> */}
         <Toolbar className={ classes.toolbar}>
+        <Button component={Link} to="/categories" varinant="container" color='primary'>Categories</Button>
             {user ? (
                 <div className={classes.profile}>
                     <Typography className={classes.userName} variant="h6">

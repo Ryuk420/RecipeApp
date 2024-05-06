@@ -1,0 +1,69 @@
+.paddings {
+    padding: 1rem;
+}
+
+.innerWidth {
+    width: 100%;
+}
+
+.flexCenter {
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flexColStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.primaryText {
+    color: #83a2d8;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.secondaryText {
+    color: rgb(183, 120, 120);
+    font-size: 1rem;
+}
+
+.f-wrapper {
+    margin-top: 20px;
+    background : #202020;
+}
+
+.f-container{
+    justify-content: space-between;
+    border-top: .5px solid rgba(0,0,0,0.148);
+}
+.f-left{
+    gap: 1rem;
+    margin-left: 40px;
+}
+
+.f-right{
+    gap: 1rem;
+    margin-right: 40px;
+}
+.f-menu{
+    gap: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+    .f-right{
+        justify-content: center;
+    }
+}
